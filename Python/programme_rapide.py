@@ -34,7 +34,7 @@ def inverse():
     print(mot[::-1])
 
 if __name__ == '__main__':
-    calcul()
+    #calcul()
     main()
     #inverse()
     
