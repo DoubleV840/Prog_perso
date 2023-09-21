@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/test.css" />
+		<title>Page de test</title>
+	</head>
+	<body>
+		<h1>PAGE DE TEST</h1>
+		<div>	
+			<ul>
+				<li>Ligne1</li>
+				<li>Ligne2</li>
+				<li>Ligne3</li>
+			</ul>
+		</div>
+		<table>
+
+			<caption>Personnes présente à Noël</caption>
+
+				<thead>
+
+					<tr>
+						<th>Nom</th>
+						<th>Age</th>
+						<th>Pays</th>
+					</tr>
+
+				</thead>
+
+				<tfoot>
+					<tr>
+						<th>Nom</th>
+						<th>Age</th>
+						<th>Pays</th>
+					</tr>
+				</tfoot>
+
+				<tbody>
+		            <tr>
+		                <td>Jules</td>
+		                <td>21 ans</td>
+		                <td>France</td>
+		            </tr>
+		            <tr>
+		                <td>Anouk</td>
+		                <td>19 ans</td>
+		                <td>Belgique</td>
+		            </tr>
+					<tr>
+			           <td>Carmen</td>
+			           <td>33 ans</td>
+			           <td>Espagne</td>
+			       	</tr>
+			       	<tr>
+			           <td>Michelle</td><td>26 ans</td><td>États-Unis</td>
+			       	</tr>
+			       	<tr>
+			           <td>François</td> <td>43 ans</td><td>France</td>
+			       	</tr>
+			       	<tr>
+			           <td>Martine</td> <td>34 ans</td><td>France</td>
+			       	</tr>
+			       	<tr>
+			           <td>Jonathan</td> <td rowspan="2">13 ans</td> <td>Australie</td>
+			       	</tr>
+			       	<tr>
+			           <td>Xu</td><td colspan="2">19 ans Chine</td>
+			       	</tr>
+        		</tbody>
+	    </table>
+
+	    <form method="post" action="traitment.php">
+	    	<fieldset>
+	    		<legend>Identifiants et mot de passe : </legend>
+		    	<p>
+		    		<label for="pseudo">Mon pseudo : </label>
+		    		<input type="text" name="pseudo" id="pseudo" size="30" maxlength="50" placeholder="Ex : DoubleV" 
+		    		title="Ecrire votre pseudo" autofocus>
+		    		<br>
+		    		<label for="password">Votre mot de passe : </label>
+		    		<input type="password" name="pass" id="password" size="30" maxlength="60" title="Ecrire votre mot de passe">
+		    	</p>
+	    	</fieldset>
+	    	<fieldset><legend>Zone de texte</legend>
+		    	<p class="zonedetexte">
+		    		<label for="zonedetexte">Quel est votre avis sur la présentation de ce site internet ?</label>
+		    		<br>
+		    		<textarea name="zonedetexte" id="zonedetexte" rows="10" cols="50"></textarea>
+		    	</p>
+	    	</fieldset>
+	    	<fieldset><legend>Email</legend>
+		    	<p>
+		    		<label for="email">Entrez votre mail :</label>
+		    		<br>
+		    		<input type="email" name="mail" id="email" placeholder="Ex : mail@boitemail.fr" required>
+		    		<br><br>
+		    	</p>
+	    	</fieldset>
+	    	<fieldset><legend>Choisir une couleur</legend>
+		    	<p class="couleur">
+		    		<label for="couleur">Choisissez une couleur : </label>
+		    		<br>
+		    		<input class="couleur" type="color" name="couleur" id="couleur">
+		    	</p>
+	    	</fieldset>
+	    	<fieldset><legend>Effectuer une recherche</legend>
+		    	<p>
+		    		<label for="recherche">Rechercher : </label>
+		    		<br>
+		    		<input type="search" name="recherche">
+		    	</p>
+		    </fieldset>
+		    <fieldset><legend>Choix de réponse</legend>
+	    	<p>
+	    		Cocher les bonnes réponses : <br>
+	    		<input type="radio" name="réponse" value="réponse A" id="réponse A" ><label for="réponse A">Réponse A</label><br>
+	    		<input type="radio" name="réponse" value="réponse B" id="réponse B"><label for="réponse B">Réponse B</label><br>
+	    		<input type="radio" name="réponse" value="réponse C" id="réponse C"><label for="réponse C">Réponse C</label><br>
+	    	</p>
+	    	</fieldset>
+	    	<fieldset><legend>Choix d'un pays</legend>
+		    	<p class="pays">
+		    		<label for="pays">Dans quel pays habitez vous ?</label><br>
+		    		<select name="pays"	id="pays">
+		    			<option value="France">France</option>
+		    			<option value="Chine">Chine</option>
+		    			<option value="Etats-unis">Etats-unis</option>
+		    			<option value="Russie">Russie</option>
+		    			<option value="Italie">Italie</option>
+		    			<option value="Autralie">Australie</option>
+		    			<option value="Espagne">Espagne</option>
+		    		</select>
+		    	</p>
+	    	</fieldset>
+	    	<p class="bouton">
+	    		<label for="bouton">Cliquez pour valider</label><br>
+	    		<input type="submit" name="bouton" value="Envoyer" id="bouton">
+	    	</p>
+	    </form>
+	    <audio src="media/Chameleon.mp3" controls></audio>
+	    <video src="media/herbe.mp4" controls></video>
+	</body>
+</html>

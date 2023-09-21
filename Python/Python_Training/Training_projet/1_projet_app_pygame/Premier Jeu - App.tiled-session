@@ -1,0 +1,47 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "Premier Jeu - App.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "Premier Jeu - App.tmx": {
+            "scale": 0.7657,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 213.53010317356666,
+                "y": 260.545905707196
+            }
+        },
+        "nature_set.tsx": {
+            "scaleInDock": 2.0127,
+            "scaleInEditor": 1
+        }
+    },
+    "last.imagePath": "/Users/william/Desktop/Programmation/Python/Python_Training/Training_projet/1_projet_app_pygame",
+    "map.height": 50,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 50,
+    "openFiles": [
+        "Premier Jeu - App.tmx",
+        "nature_set.tsx"
+    ],
+    "project": "Premier Jeu - App.tiled-project",
+    "recentFiles": [
+        "nature_set.tsx",
+        "Premier Jeu - App.tmx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    },
+    "tileset.transparentColor": "#000000",
+    "tileset.useTransparentColor": true
+}

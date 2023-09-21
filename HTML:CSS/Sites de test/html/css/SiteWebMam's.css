@@ -1,0 +1,10 @@
+body
+{
+	background-image: url("img/logo exemple.jpg");
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+img
+{
+	margin-top: 400px;
+}

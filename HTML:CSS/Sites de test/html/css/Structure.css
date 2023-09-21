@@ -1,0 +1,26 @@
+#conteneur
+{
+	display: flex;
+	border: 2px solid black;
+	height: 400px;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.element
+{
+	width: 150px;
+	height: 100px;
+}
+.element:nth-child(1)
+{
+	background-color: pink;
+}
+.element:nth-child(2)
+{
+	background-color: cyan;
+}
+.element:nth-child(3)
+{
+	background-color: gray;
+}
