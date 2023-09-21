@@ -414,7 +414,7 @@ def hello(fonction):
     
 hello(loud) #Appel de la fonction 'hello' avec la fonction 'loud' en argument
 
-#Fonction lambda --> permet d'etre un racourci
+#Fonction lambda --> mini fonction def
 
 double = lambda x : x*2
 print(double(5))
