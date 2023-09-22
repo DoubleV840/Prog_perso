@@ -4,9 +4,12 @@
 import time
 import random
 import string
+import os
 
 def sauvegarder_mots_de_passe(mots_de_passe):
-    with open("mots_de_passe.txt", "a") as fichier:
+    chemin_fichier = os.path.join("/Users/william/Desktop/Programmation/Prog_perso/Python/Python_Training/Training_projet/2_gestionnaire_mdp", "mots_de_passe.txt")
+    
+    with open(chemin_fichier, "a") as fichier:
         for mot_de_passe in mots_de_passe:
             ligne = f"{mot_de_passe['Service']},{mot_de_passe['Mot_de_passe']}\n"
             fichier.write(ligne)
